@@ -1,0 +1,30 @@
+---
+title: "Mieszanka nr. 5"
+author: "Bioinfo"
+date: "18 08 2021"
+output: pdf_document
+theme: united
+mainfront: CourierNew
+---
+
+\begin{center}
+
+\textbf{Mieszanka ziolowa uzupelniajaca mineralna}
+
+\end{center}
+
+```{r setup, include=FALSE}
+source("mix_function.R")
+#wczytywanie tabel
+mix <- read.csv("Mieszanka5.csv", header = T, sep = ":")
+info <- read.csv("Informacje.csv", header =F, sep = ":")
+# ile mieszanki razem 
+im <- as.numeric(info[5,2])
+library(knitr)
+```
+
+```{r block, echo=FALSE, fig.align="center", message=FALSE, warning=FALSE, comment = NA}
+kable(info, row.names = NA, align = "c", col.names = NULL)
+mieszanka <- mieszanie(Amount = im, Mix = mix)
+kable(mieszanka[,c(1,3)], row.names = NA, align = "c")
+include_graphics("obraz_5.png")
