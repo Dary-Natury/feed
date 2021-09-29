@@ -16,7 +16,7 @@ The usage of R scripts is more flexible and allows to use any mixture prepared m
 - other files contain the code necessary for a proper script running.
 
 
-### subrepository Excel
+### Subrepository Excel
 Each file is prepared and dedicated for a specific mixture and shouldn't be changed. Each file consist of a set of sheets:
 - dane
 - drukuj
