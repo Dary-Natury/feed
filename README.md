@@ -9,4 +9,16 @@ All files are free and ready for use. The use of scripts has been simplified as 
 The usage of R scripts is more flexible and allows to use any mixture prepared my a user while Excel files ar prepared dedicated separately for each mixture.
 
 ## Manuals
+### Subrepository R
+- CSV files contains input data in tabular form, you can modify or prepare your own data in a presented format,
+- RMD file is a main executable file, you need to load the proper CSV files and execute the script to generate the raport in a PDF format,
+- PDF files are output raports, attached files are only the examples,
+- other files contain the code necessary for a proper script running.
+
+
+### subrepository Excel
+Each file is prepared and dedicated for a specific mixture and shouldn't be changed. Each file consist of a set of sheets:
+- dane
+- drukuj
+- raport ...
 
