@@ -13,6 +13,7 @@ The usage of R scripts is more flexible and allows to use any mixture prepared m
 - CSV files contains input data in tabular form, you can modify or prepare your own data in a presented format,
 - RMD file is a main executable file, you need to load the proper CSV files and execute the script to generate the raport in a PDF format,
 - PDF files are output raports, attached files are only the examples,
+- Render.R file is used to give the report filename and run the render procedure, you have to run this file to generate the report,
 - other files contain the code necessary for a proper script running.
 
 
